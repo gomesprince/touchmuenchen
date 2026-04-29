@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Training field illustration</title>
+  <desc id="desc">A stylised field, ball, and training markers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#001d3d"/>
+      <stop offset="1" stop-color="#003566"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#245b42"/>
+      <stop offset="1" stop-color="#0b251d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <circle cx="715" cy="140" r="180" fill="#ff6b00" opacity="0.25"/>
+  <path d="M0 420 C220 360 670 370 900 420 L900 700 L0 700 Z" fill="url(#field)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="5">
+    <path d="M70 610 C270 520 625 520 830 610"/>
+    <path d="M0 515 C220 460 680 460 900 515"/>
+    <path d="M450 410 V700"/>
+  </g>
+  <g transform="translate(220 225) rotate(-14)">
+    <ellipse cx="160" cy="100" rx="190" ry="86" fill="#ff6b00"/>
+    <ellipse cx="160" cy="100" rx="150" ry="62" fill="#001d3d" opacity="0.9"/>
+    <path d="M62 102 C128 68 196 63 260 88" stroke="#ffffff" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <path d="M128 70 148 125M190 66 205 116" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(105 512)">
+    <path d="M0 100 40 0 80 100Z" fill="#ff6b00"/>
+    <rect x="16" y="88" width="48" height="14" fill="#a04100"/>
+  </g>
+  <g transform="translate(720 490)">
+    <path d="M0 115 45 0 90 115Z" fill="#ff6b00"/>
+    <rect x="18" y="100" width="54" height="15" fill="#a04100"/>
+  </g>
+  <g stroke="#ff6b00" stroke-width="6" stroke-linecap="round" opacity="0.7">
+    <path d="M115 195 C175 145 250 120 330 120"/>
+    <path d="M585 245 C668 200 742 200 820 245"/>
+    <path d="M535 166 C610 105 705 88 820 112"/>
+  </g>
+</svg>
