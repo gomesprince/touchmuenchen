@@ -181,3 +181,20 @@
     padding: 1.1rem;
   }
 }
+
+
+.contact-location-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.35rem;
+  color: var(--white);
+  font-size: 0.92rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-location-link:hover,
+.contact-location-link:focus-visible {
+  color: var(--orange);
+}
