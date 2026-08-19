@@ -5,43 +5,19 @@
 }
 
 .touch-logo {
-  width: 54px;
-  height: 54px;
+  width: 68px;
+  height: 68px;
   object-fit: contain;
   display: block;
 }
 
 @media (max-width: 600px) {
   .touch-logo {
-    width: 46px;
-    height: 46px;
+    width: 54px;
+    height: 54px;
   }
 
   .touch-brand .brand-text {
     font-size: 0.95rem;
-  }
-}
-
-
-/* Large club logo on the landing/hero section */
-.hero-club-logo {
-  margin: 0 0 1.5rem;
-}
-
-.hero-club-logo img {
-  width: clamp(190px, 22vw, 280px);
-  height: auto;
-  display: block;
-  object-fit: contain;
-  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.24));
-}
-
-@media (max-width: 600px) {
-  .hero-club-logo {
-    margin-bottom: 1.15rem;
-  }
-
-  .hero-club-logo img {
-    width: 170px;
   }
 }
