@@ -1,0 +1,23 @@
+.touch-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.touch-logo {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .touch-logo {
+    width: 46px;
+    height: 46px;
+  }
+
+  .touch-brand .brand-text {
+    font-size: 0.95rem;
+  }
+}
